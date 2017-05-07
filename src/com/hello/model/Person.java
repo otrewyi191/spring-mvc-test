@@ -33,4 +33,8 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+    public Person() {
+        this.name = "zzx";
+        this.age = 123;
+    }
 }
